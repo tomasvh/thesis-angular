@@ -1,0 +1,16 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 2vw;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  box-shadow: 0 0 3px 3px lightblue;
+}
+
+.blog-image {
+  max-width: 80%;
+  border-radius: 5px;
+}

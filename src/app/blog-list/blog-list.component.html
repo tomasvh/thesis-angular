@@ -1,0 +1,9 @@
+<h3>{{pageTitle}}</h3>
+<div class='container'>
+  <app-blog *ngFor="let blog of blogs"
+  [id]="blog.id"
+  [title]="blog.title"
+  [date]="blog.date"
+  [image]="blog.image"
+  [content]="blog.content"></app-blog>
+</div>

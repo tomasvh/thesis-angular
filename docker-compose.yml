@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/application
+    ports:
+      - 4500:4500
+    image: app:angular
+    container_name: angular-container
+    deploy:
+      resources:
+        limits:
+          cpus: 1.0
+          memory: 1024M
