@@ -3,9 +3,9 @@ services:
     build:
       context: .
     volumes:
-      - .:/application
+      - .:/app
     ports:
-      - 4500:4500
+      - 80:8080
     image: app:angular
     container_name: angular-container
     deploy:
